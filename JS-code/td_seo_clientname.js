@@ -73,16 +73,16 @@ window.onload = function(){
 			
 			/* website referrals*/
 			
-		else if (referer_td.indexOf("webbsite-1") != -1){
+		else if (referer_td.indexOf("website-1") != -1){
 			pubID = TDrefwebsite1;
 			} 
-		else if (referer_td.indexOf("webbsite-2") != -1){
+		else if (referer_td.indexOf("website-2") != -1){
 			pubID = TDrefwebsite2;
 			} 
-		else if (referer_td.indexOf("webbsite-3") != -1){
+		else if (referer_td.indexOf("website-3") != -1){
 			pubID = TDrefwebsite3;
 			} 
-		else if (referer_td.indexOf("webbsite-4") != -1){
+		else if (referer_td.indexOf("website-4") != -1){
 			pubID = TDrefwebsite4;
 			} 
 
@@ -103,7 +103,7 @@ window.onload = function(){
 			epi = encodeURIComponent(referer_td);
 			epi2 = GetURLParameter(p_td,referer_td,sCharacter);
 			var imgTD = document.createElement('img');
-			imgTD.src = location.protocol +'//clk.tradedoubler.com/click?p='+ TDprogID +'&a='+ pubID +'&g='+ TDaddID + '&epi=' + epi + '&epi2=' + epi2 + 'f=0';
+			imgTD.src = location.protocol +'//clk.tradedoubler.com/click?p='+ TDprogID +'&a='+ pubID +'&g='+ TDaddID + '&epi=' + epi + '&epi2=' + epi2;
 			imgTD.width = 0;
 			imgTD.height = 0;
 			imgTD.style.display = "none";
