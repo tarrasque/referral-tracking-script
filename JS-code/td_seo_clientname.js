@@ -1,7 +1,7 @@
 /***********************************************
 Name: td_seo_clientname.js
 Description: This file measures organic traffic from more font of traffic.
-Last update: 15/12/2019 Luca Galliani
+Last update: 15/12/2018 Luca Galliani
 ************************************************/
 
 /*
